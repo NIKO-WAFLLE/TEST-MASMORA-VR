@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\furrinator\\game 1 - copia\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8CEB63C2-DD63-E19D-8EE5-2EB6BC315347}|Assembly-CSharp.csproj|c:\\users\\furrinator\\game 1 - copia\\assets\\scrip\\enemy\\prefabspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CEB63C2-DD63-E19D-8EE5-2EB6BC315347}|Assembly-CSharp.csproj|solutionrelative:assets\\scrip\\enemy\\prefabspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PrefabSpawner.cs",
+              "DocumentMoniker": "C:\\Users\\furrinator\\game 1 - copia\\Assets\\Scrip\\enemy\\PrefabSpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\Scrip\\enemy\\PrefabSpawner.cs",
+              "ToolTip": "C:\\Users\\furrinator\\game 1 - copia\\Assets\\Scrip\\enemy\\PrefabSpawner.cs",
+              "RelativeToolTip": "Assets\\Scrip\\enemy\\PrefabSpawner.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T08:41:09.777Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+# Unity folders
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.csproj
+*.sln
+*.user
+*.unityproj
+*.booproj
+
+# Unity crashes
+sysinfo.txt
+
+# Builds / APKs
+*.apk
+*.aab
+Builds/
+Build/
