@@ -82,3 +82,12 @@ git push -u origin main
 ## para descargar cambios 
 
 git pull
+git lfs pull
+
+## clonar en un nuevo dispositivo 
+
+git lfs install
+git clone https://github.com/NIKO-WAFLLE/La_venganza_meow.git
+cd La_venganza_meow
+git lfs pull
+
