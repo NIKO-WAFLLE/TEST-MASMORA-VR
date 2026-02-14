@@ -9,8 +9,11 @@ Lo dejo público por si la configuración de GitHub le resulta útil a alguien, 
 - nota: Escrito el sábado 14 de febrero de 2025 a la 1:09 AM.
  
 ## version ocupada 2022.3.62f1
+## Modulos OpenJDK y Android SDK & NDK Tools
 
-### clonar repositorio 
+# Clonar repositorio 
+
+### clonar en un nuevo repositorio 
 
 git lfs install
 
@@ -20,6 +23,7 @@ cd TEST-MASMORA-VR
 
 git lfs pull
 
+# pasos para crear tu repositorio 
 
 ### Instalaciones nesesarias
 
@@ -84,10 +88,69 @@ git push -u origin main
 git pull
 git lfs pull
 
-## clonar en un nuevo dispositivo 
+# IMPORTANTE GITIGNORE 
 
-git lfs install
-git clone https://github.com/NIKO-WAFLLE/La_venganza_meow.git
-cd La_venganza_meow
-git lfs pull
+# descarga el de mi proyecto o crea uno que contenga esto 
 
+'# Unity folders
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.csproj
+*.sln
+*.user
+*.unityproj
+*.booproj
+
+# Unity crashes
+sysinfo.txt
+
+# Builds / APKs
+*.apk
+*.aab
+Builds/
+Build/
+'
+## segun chat gpt puedes crearlo de forma automatica en el git bash asi - no lo probe pero sabia que se podia hacer y lo agrege xd 
+
+'cat > .gitignore << 'EOF'
+# Unity folders
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.csproj
+*.sln
+*.user
+*.unityproj
+*.booproj
+
+# Unity crashes
+sysinfo.txt
+
+# Builds / APKs
+*.apk
+*.aab
+Builds/
+Build/
+EOF
+'
