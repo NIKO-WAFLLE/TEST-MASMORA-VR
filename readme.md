@@ -14,7 +14,7 @@ Lo dejo público por si la configuración de GitHub le resulta útil a alguien, 
 # Clonar repositorio 
 
 ### clonar en un nuevo repositorio 
-
+```
 git lfs install
 
 git clone https://github.com/NIKO-WAFLLE/TEST-MASMORA-VR.git
@@ -22,17 +22,17 @@ git clone https://github.com/NIKO-WAFLLE/TEST-MASMORA-VR.git
 cd TEST-MASMORA-VR
 
 git lfs pull
-
+```
 # pasos para crear tu repositorio 
 
 ### Instalaciones nesesarias
-
+```
 git init
 
 git lfs install
-
+```
 ### configuracion del track
-
+```
 git lfs track "*.fbx"
 
 git lfs track "*.blend"
@@ -46,52 +46,52 @@ git lfs track "*.psd"
 git lfs track "*.wav"
 
 git lfs track "*.mp4"
-
+```
 ## se confirma 
-
+```
 git lfs track
-
+```
 ## se agrega todo corectamente 
-
+```
 git add .
 
 git status
-
+```
 ## agregar todo corectamente
-
+```
 git add .
 
 git status
 
 git commit -m "Initial Unity project commit"
-
+```
 ## Conectar y subir
-
+```
 git branch -M main
 git remote add origin https://github.com/NIKO-WAFLLE/TEST-MASMORA-VR.git
 git push -u origin main
-
+```
 ## para subir cambios 
-
+```
 git add Assets ProjectSettings Packages
 git commit -m "mensaje claro"
 git push -u origin main
-
+```
 o
-
+```
 git add .
 git commit -m "Test actualizar readme"
 git push -u origin main
-
+```
 ## para descargar cambios 
-
+```
 git pull
 git lfs pull
-
+```
 # IMPORTANTE GITIGNORE 
 
 # descarga el de mi proyecto o crea uno que contenga esto 
-
+```
 '# Unity folders
 [Ll]ibrary/
 [Tt]emp/
@@ -152,5 +152,6 @@ sysinfo.txt
 *.aab
 Builds/
 Build/
+```
 EOF
 '
