@@ -21,8 +21,9 @@ Thumbs.db
 # Unity crashes
 sysinfo.txt
 
-# Builds / APKs
+# Builds
 *.apk
 *.aab
-Builds/
-Build/
+*.unitypackage
+*.unitypackage.meta
+*.app
